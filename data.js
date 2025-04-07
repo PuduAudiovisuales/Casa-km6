@@ -1,175 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-cuarto-paz",
-      "name": "Cuarto Paz",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.912328983263281,
-          "pitch": 0.21679742418804082,
-          "rotation": 0,
-          "target": "8-repartidor"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-cuarto-tele",
-      "name": "Cuarto Tele",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.9342367652460943,
-          "pitch": 0.25933316501201276,
-          "rotation": 0,
-          "target": "8-repartidor"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-bao-principal",
-      "name": "Baño Principal",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7910930458600323,
-          "pitch": 0.21465442762155007,
-          "rotation": 0,
-          "target": "8-repartidor"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-hall-invierno",
-      "name": "Hall invierno",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9682497795002156,
-          "pitch": 0.08179746946446187,
-          "rotation": 0,
-          "target": "4-entrada"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-entrada",
+      "id": "0-entrada",
       "name": "Entrada",
       "levels": [
         {
@@ -217,7 +49,181 @@ var APP_DATA = {
           "yaw": 1.652645902003842,
           "pitch": 0.07597460759138563,
           "rotation": 0,
-          "target": "3-hall-invierno"
+          "target": "4-hall-invierno"
+        },
+        {
+          "yaw": -0.35812870113177553,
+          "pitch": 0.0434979052101383,
+          "rotation": 0,
+          "target": "8-repartidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-cuarto-paz",
+      "name": "Cuarto Paz",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.912328983263281,
+          "pitch": 0.21679742418804082,
+          "rotation": 0,
+          "target": "8-repartidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-cuarto-tele",
+      "name": "Cuarto Tele",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9342367652460943,
+          "pitch": 0.25933316501201276,
+          "rotation": 0,
+          "target": "8-repartidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-bao-principal",
+      "name": "Baño Principal",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7910930458600323,
+          "pitch": 0.21465442762155007,
+          "rotation": 0,
+          "target": "8-repartidor"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-hall-invierno",
+      "name": "Hall invierno",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.9682497795002156,
+          "pitch": 0.08179746946446187,
+          "rotation": 0,
+          "target": "0-entrada"
         }
       ],
       "infoHotspots": []
@@ -265,7 +271,13 @@ var APP_DATA = {
           "yaw": -2.269749545784906,
           "pitch": 0.1643816007135417,
           "rotation": 0,
-          "target": "4-entrada"
+          "target": "0-entrada"
+        },
+        {
+          "yaw": -0.13068262018382448,
+          "pitch": 0.1667262810970307,
+          "rotation": 0,
+          "target": "8-repartidor"
         }
       ],
       "infoHotspots": []
@@ -319,13 +331,13 @@ var APP_DATA = {
           "yaw": 0.30206304351434277,
           "pitch": 0.09382266662492711,
           "rotation": 0,
-          "target": "4-entrada"
+          "target": "0-entrada"
         },
         {
           "yaw": -0.7822097938602965,
           "pitch": 0.09779534887992192,
           "rotation": 0,
-          "target": "3-hall-invierno"
+          "target": "4-hall-invierno"
         }
       ],
       "infoHotspots": []
@@ -415,19 +427,19 @@ var APP_DATA = {
           "yaw": 0.11717716842563419,
           "pitch": 0.19192222760768196,
           "rotation": 0,
-          "target": "0-cuarto-paz"
+          "target": "1-cuarto-paz"
         },
         {
           "yaw": 0.6627503582954883,
           "pitch": 0.26567986298981694,
           "rotation": 0,
-          "target": "1-cuarto-tele"
+          "target": "2-cuarto-tele"
         },
         {
           "yaw": 2.0954306535831524,
           "pitch": 0.16479896469768995,
           "rotation": 0,
-          "target": "2-bao-principal"
+          "target": "3-bao-principal"
         },
         {
           "yaw": -2.4610010597495453,
